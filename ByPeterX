@@ -2004,10 +2004,6 @@ pagee1:Toggle("Hide name",nil, function(value)
     print(value)
 end)
 
-pagem1:Toggle("Auto chests",nil, function(value)
-    
-end)
-
 pagem1:Toggle("White screen",nil, function(value)
     _G.White_Screen = (value)
     spawn(function()
